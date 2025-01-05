@@ -6,6 +6,6 @@ def calculate_age(birthdate):
     age = today.year - birthdate.year - ((today.month, today.day) < (birthdate.month, birthdate.day))
     return age
 
-birthdate = iput("Masukkan tanggal lahir (dd-mm-yyyy): ")
+birthdate = iput("Masukkan tagggal lahir (dd-mm-yyyy): ")
 age = calculate_age(birthdate)
 print(f"Umur Anda: {age} tahun")
